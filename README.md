@@ -6,19 +6,40 @@
 
 <div align="center">
 
-[**ArchitectLab**](https://github.com/SandeepN97/architect-lab-java) · [**InboxGuard**](https://github.com/SandeepN97/inboxguard) · [**EdgeBot**](https://github.com/SandeepN97/edgebot) · [**Samjhana Ventures OS**](https://github.com/SandeepN97/samjhana-ventures-os) · [**All repositories →**](https://github.com/SandeepN97?tab=repositories)
+[**Beacon & Co.**](https://github.com/SandeepN97/Beacon-Co) · [**ArchitectLab**](https://github.com/SandeepN97/architect-lab-java) · [**InboxGuard**](https://github.com/SandeepN97/inboxguard) · [**EdgeBot**](https://github.com/SandeepN97/edgebot) · [**Samjhana Ventures OS**](https://github.com/SandeepN97/samjhana-ventures-os) · [**All repositories →**](https://github.com/SandeepN97?tab=repositories)
 
 </div>
 
 ## I build software where the architecture is visible in the code.
 
-I work across **Java / Spring Boot**, **TypeScript / React**, data, distributed-system patterns, and delivery automation. I am most interested in the parts of software that determine whether a system remains understandable after the happy-path demo is over: **boundaries, failure behavior, security, observability, testing, and operational evidence**.
+I work across **Java / Spring Boot**, **TypeScript / React**, distributed-system patterns, AI-assisted engineering, and secure delivery. I am most interested in the parts of software that determine whether a system remains understandable after the happy-path demo is over: **boundaries, authority, failure behavior, security, observability, testing, and operational evidence**.
 
 My engineering thesis is simple:
 
 > **Important design decisions should be enforceable, observable, and reviewable — not buried in a diagram or remembered by one person.**
 
-That shows up repeatedly in my projects: dependency rules enforced with tests, failure modes made visible, security checks moved into CI, experiments separated from claims, and documentation kept close to the system it describes.
+That shows up repeatedly in my projects: dependency rules enforced with tests, failure modes made visible, security checks moved into CI, experiments separated from claims, AI authority kept explicit, and documentation kept close to the system it describes.
+
+---
+
+## Flagship system
+
+### 🔦 [Beacon & Co.](https://github.com/SandeepN97/Beacon-Co) — governed AI-assisted operations with explicit authority boundaries
+
+`Astro` · `TypeScript` · `Markdoc` · `Cloudflare Workers` · `AI orchestration` · `ADRs` · `DevSecOps`
+
+Beacon is an architecture-first business operations project that combines a real marketing and lead-capture surface with a **provider-neutral orchestration and decision-system laboratory**.
+
+- Models AI providers behind typed adapters instead of making one model an architectural dependency.
+- Keeps consequential actions behind explicit human approval and workflow boundaries.
+- Records decisions, evidence, provenance, audit state, continuation, and release policy as first-class engineering concerns.
+- Uses a canonical Astro + Markdoc engineering handbook with ADRs, diagrams, roadmap, operations, provenance, and machine-readable context.
+- Enforces delivery and security policy through CI/CD rather than treating deployment governance as documentation only.
+- Clearly distinguishes implemented production-facing features, implemented simulations, in-progress architecture, and planned integrations.
+
+**Why it matters:** AI capability should not automatically become software authority. Beacon explores how agentic systems can remain auditable, replaceable, reviewable, and understandable as they grow.
+
+[Explore Beacon & Co. →](https://github.com/SandeepN97/Beacon-Co)
 
 ---
 
@@ -97,12 +118,12 @@ A bilingual multi-business ERP spanning furniture, fuel, EV charging, rentals, l
 | Principle | What it means in practice |
 | --- | --- |
 | **Architecture should constrain code** | Dependency rules, interfaces, tests, and policies should reinforce the intended structure. |
+| **Authority should be explicit** | Automated and AI-assisted actions need clear permissions, approval points, and evidence at consequential boundaries. |
 | **Failure is part of the design** | Timeouts, degraded dependencies, rejected inputs, and recovery paths deserve first-class treatment. |
 | **Security belongs in delivery** | Secrets, dependencies, static analysis, runtime checks, and release controls belong in the pipeline. |
 | **Observability explains behavior** | Logs, metrics, traces, events, and audit evidence should make system behavior inspectable. |
 | **Tests validate assumptions** | A test suite should challenge important invariants, not exist primarily to improve a coverage badge. |
 | **Documentation is part of the system** | ADRs, C4 diagrams, runbooks, and implementation docs should evolve with the code. |
-| **Automation needs boundaries** | Automated actions should have explicit permissions, review points, and evidence where consequences matter. |
 
 ---
 
@@ -114,7 +135,7 @@ A bilingual multi-business ERP spanning furniture, fuel, EV charging, rentals, l
   <img alt="How I think about software systems" src="./assets/systems-light.svg" width="100%">
 </picture>
 
-I try to separate **product intent, application behavior, domain rules, workflows, security, infrastructure, and observability** so each can evolve without turning every change into a repository-wide dependency problem.
+I try to separate **product intent, application behavior, domain rules, workflows, security, infrastructure, observability, and automated authority** so each can evolve without turning every change into a repository-wide dependency problem.
 
 ---
 
@@ -132,16 +153,18 @@ I try to separate **product intent, application behavior, domain rules, workflow
 **Architecture**  
 `Hexagonal Architecture` · `Clean Architecture` · `C4` · `ADRs` · `Domain modeling` · `Workflow boundaries`
 
-**AI-assisted engineering**  
-I use AI tools to accelerate research, implementation, testing, and review while keeping **architecture, acceptance criteria, authority, and evidence** explicit. I am particularly interested in machine-readable documentation, bounded automation, provider abstraction, and human review at consequential boundaries.
+**AI systems & assisted engineering**  
+`Provider abstraction` · `Typed orchestration` · `Human-in-the-loop approval` · `Evidence & provenance` · `Machine-readable documentation` · `Bounded automation`
+
+I use AI tools to accelerate research, implementation, testing, and review while keeping **architecture, acceptance criteria, authority, and evidence** explicit.
 
 ---
 
 ## Current direction
 
-I am deepening my work in **distributed systems, architecture enforcement, secure delivery, observability, and governed AI-assisted engineering**.
+**Beacon & Co.** is my primary architecture and AI-governance project: provider-neutral orchestration, authority boundaries, evidence, documentation systems, and secure release discipline.
 
-ArchitectLab is the main public learning surface for system-design experiments. InboxGuard, EdgeBot, and Samjhana Ventures OS provide different pressure tests: security and architecture enforcement, empirical validation, and real-world domain complexity.
+**ArchitectLab**, **InboxGuard**, **EdgeBot**, and **Samjhana Ventures OS** pressure-test the same engineering philosophy from different directions: distributed-system behavior, architecture enforcement and security, empirical validation, and real-world domain complexity.
 
 ---
 
@@ -149,6 +172,6 @@ ArchitectLab is the main public learning surface for system-design experiments. 
 
 ### Build deliberately. Make the boundaries visible. Verify the behavior.
 
-[**Explore all repositories →**](https://github.com/SandeepN97?tab=repositories)
+[**Explore Beacon & Co. →**](https://github.com/SandeepN97/Beacon-Co) · [**Explore all repositories →**](https://github.com/SandeepN97?tab=repositories)
 
 </div>
