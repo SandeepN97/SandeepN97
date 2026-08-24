@@ -6,69 +6,45 @@
 
 <div align="center">
 
-[![Beacon & Co.](https://img.shields.io/badge/FLAGSHIP-Beacon_%26_Co.-0969da?style=for-the-badge)](https://github.com/SandeepN97/Beacon-Co)
-[![GitHub](https://img.shields.io/badge/PROJECTS-Explore_my_work-24292f?style=for-the-badge&logo=github)](https://github.com/SandeepN97?tab=repositories)
+[![Projects](https://img.shields.io/badge/ENGINEERING-Explore_projects-24292f?style=for-the-badge&logo=github)](https://github.com/SandeepN97?tab=repositories)
+[![System Design](https://img.shields.io/badge/FOCUS-System_Design-0969da?style=for-the-badge)](https://github.com/SandeepN97/architect-lab-java)
 
 </div>
 
 ## 01 / About
 
-I design and build software from **architecture decisions to production delivery**. My primary application stacks are **Java / Spring Boot** and **TypeScript / React**, with a growing focus on **distributed systems, AI-assisted engineering, DevSecOps, observability, and workflow orchestration**.
+I design and build software from **architecture decisions to production delivery**. My primary application stacks are **Java / Spring Boot** and **TypeScript / React**, with a strong interest in **distributed systems, DevSecOps, observability, workflow design, secure delivery, and AI-assisted engineering**.
 
-I care about systems that are not only functional, but also **understandable, testable, secure, observable, and explicit about their tradeoffs** — through ADRs, diagrams, architecture boundaries, automated quality gates, and living documentation.
-
----
-
-## 02 / What I Build
-
-| Applications | Systems | Engineering |
-| --- | --- | --- |
-| Java 21 / Spring Boot | Distributed-system patterns | CI/CD & release gates |
-| TypeScript / React / Astro | Event-driven workflows | DevSecOps |
-| REST APIs & full-stack apps | AI orchestration & adapters | Observability |
-| PostgreSQL & data modeling | Automation & approvals | ADRs, C4 & architecture docs |
+I care about systems that are not only functional, but also **understandable, testable, secure, observable, and explicit about their tradeoffs**. I use architecture boundaries, ADRs, diagrams, automated quality gates, security tooling, and living documentation to make those decisions visible.
 
 ---
 
-## 03 / Flagship System
-
-### [Beacon & Co.](https://github.com/SandeepN97/Beacon-Co)
-
-**Architecture-first AI-assisted business operations platform** combining a production marketing surface with a governed orchestration and decision system.
-
-`Astro` · `TypeScript` · `Markdoc` · `Cloudflare` · `AI orchestration` · `ADRs` · `DevSecOps`
-
-- Provider-neutral orchestration with typed adapters, approvals, audit, continuation, and workflow gates
-- Canonical Markdoc engineering handbook covering product, architecture, decisions, roadmap, operations, provenance, and diagrams
-- Security and delivery policy expressed as code, with controlled staging/production promotion
-- Human approval preserved at consequential boundaries while repetitive work is automated
-
-[**Explore Beacon →**](https://github.com/SandeepN97/Beacon-Co)
-
----
-
-## 04 / Selected Engineering
+## 02 / Featured Engineering
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🛡️ [InboxGuard](https://github.com/SandeepN97/inboxguard)
-**Production-grade Gmail management architecture**
+### 🏗️ [ArchitectLab](https://github.com/SandeepN97/architect-lab-java)
+**Learn distributed systems by changing them.**
 
-`Java 21` `Spring Boot` `React` `PostgreSQL`
+`Java` `Spring Boot` `React` `Redis` `Kafka/Redpanda` `OpenTelemetry`
 
-Hexagonal architecture with enforced dependency boundaries, OAuth2, encrypted credentials, and a layered security pipeline using tools such as CodeQL, Trivy, Semgrep, Gitleaks and OWASP ZAP.
+An interactive system-design playground for experimenting with **rate limiting, traffic generation, failure injection, event streams, RBAC, Prometheus, Grafana, and distributed-system behavior**.
+
+**Search territory:** Java system design · distributed systems · observability · rate limiting
 
 </td>
 <td width="50%" valign="top">
 
-### 🏗️ [ArchitectLab](https://github.com/SandeepN97/architect-lab-java)
-**Interactive system-design playground**
+### 🛡️ [InboxGuard](https://github.com/SandeepN97/inboxguard)
+**Hexagonal architecture meets DevSecOps.**
 
-`Spring Boot` `React` `Redis` `Kafka/Redpanda`
+`Java 21` `Spring Boot` `React` `PostgreSQL` `OAuth2`
 
-Turns system-design concepts into working simulations: traffic generation, rate limiting, failure injection, events, telemetry, RBAC, Prometheus and Grafana.
+A Gmail management application demonstrating **hexagonal architecture, enforced dependency boundaries, encrypted credentials, OAuth2, ArchUnit, and a layered security pipeline** using CodeQL, Trivy, Semgrep, Gitleaks and OWASP ZAP.
+
+**Search territory:** Spring Boot · hexagonal architecture · DevSecOps · Gmail OAuth2
 
 </td>
 </tr>
@@ -76,21 +52,25 @@ Turns system-design concepts into working simulations: traffic generation, rate 
 <td width="50%" valign="top">
 
 ### 📈 [EdgeBot](https://github.com/SandeepN97/edgebot)
-**Research-driven trading system**
+**Algorithmic-trading research built around evidence.**
 
-`Python` `Clean Architecture` `Backtesting` `Risk`
+`Python` `Clean Architecture` `Backtesting` `Risk Management`
 
-Built around evidence rather than optimistic backtests: sealed holdout validation, explicit failed-strategy findings, risk controls, paper-trading boundaries, and 130+ tests.
+A research-driven trading system focused on **sealed holdout validation, explicit failed-strategy findings, risk controls, paper-trading boundaries, reproducible experiments, and 130+ tests**.
+
+**Search territory:** algorithmic trading · backtesting · clean architecture · research validation
 
 </td>
 <td width="50%" valign="top">
 
 ### 🏢 [Samjhana Ventures OS](https://github.com/SandeepN97/samjhana-ventures-os)
-**Multi-business operating system**
+**Bilingual multi-business ERP for real operations.**
 
 `Java 21` `Spring Boot` `React` `JWT` `i18n`
 
-A bilingual Nepal–USA family-business system spanning furniture, fuel, EV charging, rentals and financial operations — designed for practical, non-technical users.
+A Nepal–USA family-business operating system spanning **furniture, fuel, EV charging, rentals, loans, pricing, finance, role-based access, and bilingual workflows** for practical non-technical users.
+
+**Search territory:** Spring Boot ERP · domain modeling · business software · internationalization
 
 </td>
 </tr>
@@ -98,21 +78,32 @@ A bilingual Nepal–USA family-business system spanning furniture, fuel, EV char
 
 ---
 
-## 05 / Engineering Principles
+## 03 / What I Build
+
+| Applications | Systems | Engineering |
+| --- | --- | --- |
+| Java 21 / Spring Boot | Distributed-system patterns | CI/CD & release gates |
+| TypeScript / React / Astro | Event-driven workflows | DevSecOps |
+| REST APIs & full-stack apps | Caching, messaging & rate limiting | Observability |
+| PostgreSQL & domain modeling | Automation & workflow boundaries | ADRs, C4 & architecture docs |
+
+---
+
+## 04 / Engineering Principles
 
 ```text
 01  Architecture should constrain the code, not decorate the README.
 02  Important technical decisions deserve explicit records.
 03  Security belongs in the delivery pipeline.
 04  Observability is part of system behavior, not an afterthought.
-05  AI agents need boundaries, evidence and human authority.
+05  Automation needs explicit authority boundaries.
 06  Documentation should evolve with the system it describes.
 07  Tests should validate assumptions, not merely improve a badge.
 ```
 
 ---
 
-## 06 / Systems Thinking
+## 05 / Systems Thinking
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/systems-dark.svg">
@@ -124,7 +115,7 @@ I tend to separate **product intent, application behavior, domain rules, workflo
 
 ---
 
-## 07 / Engineering Toolbox
+## 06 / Engineering Toolbox
 
 **Core**  
 `Java 21` · `Spring Boot` · `TypeScript` · `JavaScript` · `React` · `Astro` · `SQL` · `REST`
@@ -138,28 +129,27 @@ I tend to separate **product intent, application behavior, domain rules, workflo
 **Architecture**  
 `Hexagonal Architecture` · `Clean Architecture` · `C4` · `ADRs` · `Event-driven design` · `Workflow orchestration`
 
-**AI Engineering**  
-`Provider adapters` · `Agent orchestration` · `Context boundaries` · `Human-in-the-loop approvals` · `Machine-readable documentation`
+**AI-assisted Engineering**  
+`Provider abstraction` · `Context boundaries` · `Human-in-the-loop review` · `Machine-readable documentation` · `Evidence-driven workflows`
 
 ---
 
-## 08 / Current Focus
+## 07 / Current Focus
 
-I am currently pushing **Beacon & Co.** deeper into governed AI-assisted engineering: typed decision systems, provider-neutral orchestration, authority boundaries, evidence, documentation retrieval, and release discipline.
+I am currently deepening my work around **distributed systems, architecture enforcement, secure delivery, observability, and AI-assisted engineering workflows**.
 
-At the same time, I use projects like **ArchitectLab**, **InboxGuard**, and **EdgeBot** to keep system design, security, testing, reliability, and empirical validation grounded in working code.
+**ArchitectLab** is my primary system-design learning surface, while **InboxGuard**, **EdgeBot**, and **Samjhana Ventures OS** keep architecture, security, empirical validation, and domain modeling grounded in working software.
 
 ---
 
-## 09 / Repository Map
+## 08 / Repository Map
 
 | Project | Primary signal |
 | --- | --- |
-| [Beacon-Co](https://github.com/SandeepN97/Beacon-Co) | AI systems · architecture · governance · delivery |
-| [inboxguard](https://github.com/SandeepN97/inboxguard) | Java · hexagonal architecture · DevSecOps |
 | [architect-lab-java](https://github.com/SandeepN97/architect-lab-java) | distributed systems · observability · system design |
+| [inboxguard](https://github.com/SandeepN97/inboxguard) | Java · hexagonal architecture · DevSecOps |
 | [edgebot](https://github.com/SandeepN97/edgebot) | clean architecture · testing · empirical validation |
-| [samjhana-ventures-os](https://github.com/SandeepN97/samjhana-ventures-os) | full-stack business software · domain modeling |
+| [samjhana-ventures-os](https://github.com/SandeepN97/samjhana-ventures-os) | full-stack ERP · domain modeling · i18n |
 | [dividendlens](https://github.com/SandeepN97/dividendlens) | data-driven financial analysis |
 
 ---
@@ -168,6 +158,6 @@ At the same time, I use projects like **ArchitectLab**, **InboxGuard**, and **Ed
 
 ### Build deliberately. Document the decisions. Verify the system.
 
-[**View all repositories**](https://github.com/SandeepN97?tab=repositories)
+[**View all repositories →**](https://github.com/SandeepN97?tab=repositories)
 
 </div>
