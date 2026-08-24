@@ -1,109 +1,112 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img alt="Sandeep Nyoupane — Software Engineer | Architecture, AI Systems, DevSecOps" src="./assets/hero-light.svg" width="100%">
+  <img alt="Sandeep Nyoupane — Software Engineer | Architecture, Distributed Systems, DevSecOps" src="./assets/hero-light.svg" width="100%">
 </picture>
 
 <div align="center">
 
-[![Projects](https://img.shields.io/badge/ENGINEERING-Explore_projects-24292f?style=for-the-badge&logo=github)](https://github.com/SandeepN97?tab=repositories)
-[![System Design](https://img.shields.io/badge/FOCUS-System_Design-0969da?style=for-the-badge)](https://github.com/SandeepN97/architect-lab-java)
+[**ArchitectLab**](https://github.com/SandeepN97/architect-lab-java) · [**InboxGuard**](https://github.com/SandeepN97/inboxguard) · [**EdgeBot**](https://github.com/SandeepN97/edgebot) · [**Samjhana Ventures OS**](https://github.com/SandeepN97/samjhana-ventures-os) · [**All repositories →**](https://github.com/SandeepN97?tab=repositories)
 
 </div>
 
-## 01 / About
+## I build software where the architecture is visible in the code.
 
-I design and build software from **architecture decisions to production delivery**. My primary application stacks are **Java / Spring Boot** and **TypeScript / React**, with a strong interest in **distributed systems, DevSecOps, observability, workflow design, secure delivery, and AI-assisted engineering**.
+I work across **Java / Spring Boot**, **TypeScript / React**, data, distributed-system patterns, and delivery automation. I am most interested in the parts of software that determine whether a system remains understandable after the happy-path demo is over: **boundaries, failure behavior, security, observability, testing, and operational evidence**.
 
-I care about systems that are not only functional, but also **understandable, testable, secure, observable, and explicit about their tradeoffs**. I use architecture boundaries, ADRs, diagrams, automated quality gates, security tooling, and living documentation to make those decisions visible.
+My engineering thesis is simple:
 
----
+> **Important design decisions should be enforceable, observable, and reviewable — not buried in a diagram or remembered by one person.**
 
-## 02 / Featured Engineering
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🏗️ [ArchitectLab](https://github.com/SandeepN97/architect-lab-java)
-**Learn distributed systems by changing them.**
-
-`Java` `Spring Boot` `React` `Redis` `Kafka/Redpanda` `OpenTelemetry`
-
-An interactive system-design playground for experimenting with **rate limiting, traffic generation, failure injection, event streams, RBAC, Prometheus, Grafana, and distributed-system behavior**.
-
-**Search territory:** Java system design · distributed systems · observability · rate limiting
-
-</td>
-<td width="50%" valign="top">
-
-### 🛡️ [InboxGuard](https://github.com/SandeepN97/inboxguard)
-**Hexagonal architecture meets DevSecOps.**
-
-`Java 21` `Spring Boot` `React` `PostgreSQL` `OAuth2`
-
-A Gmail management application demonstrating **hexagonal architecture, enforced dependency boundaries, encrypted credentials, OAuth2, ArchUnit, and a layered security pipeline** using CodeQL, Trivy, Semgrep, Gitleaks and OWASP ZAP.
-
-**Search territory:** Spring Boot · hexagonal architecture · DevSecOps · Gmail OAuth2
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 📈 [EdgeBot](https://github.com/SandeepN97/edgebot)
-**Algorithmic-trading research built around evidence.**
-
-`Python` `Clean Architecture` `Backtesting` `Risk Management`
-
-A research-driven trading system focused on **sealed holdout validation, explicit failed-strategy findings, risk controls, paper-trading boundaries, reproducible experiments, and 130+ tests**.
-
-**Search territory:** algorithmic trading · backtesting · clean architecture · research validation
-
-</td>
-<td width="50%" valign="top">
-
-### 🏢 [Samjhana Ventures OS](https://github.com/SandeepN97/samjhana-ventures-os)
-**Bilingual multi-business ERP for real operations.**
-
-`Java 21` `Spring Boot` `React` `JWT` `i18n`
-
-A Nepal–USA family-business operating system spanning **furniture, fuel, EV charging, rentals, loans, pricing, finance, role-based access, and bilingual workflows** for practical non-technical users.
-
-**Search territory:** Spring Boot ERP · domain modeling · business software · internationalization
-
-</td>
-</tr>
-</table>
+That shows up repeatedly in my projects: dependency rules enforced with tests, failure modes made visible, security checks moved into CI, experiments separated from claims, and documentation kept close to the system it describes.
 
 ---
 
-## 03 / What I Build
+## Selected systems
 
-| Applications | Systems | Engineering |
-| --- | --- | --- |
-| Java 21 / Spring Boot | Distributed-system patterns | CI/CD & release gates |
-| TypeScript / React / Astro | Event-driven workflows | DevSecOps |
-| REST APIs & full-stack apps | Caching, messaging & rate limiting | Observability |
-| PostgreSQL & domain modeling | Automation & workflow boundaries | ADRs, C4 & architecture docs |
+### 🏗️ [ArchitectLab](https://github.com/SandeepN97/architect-lab-java) — learn distributed systems by changing them
 
----
+`Java` · `Spring Boot` · `React` · `Redis` · `Kafka / Redpanda` · `OpenTelemetry`
 
-## 04 / Engineering Principles
+A hands-on system-design playground built to make backend behavior observable instead of abstract.
 
-```text
-01  Architecture should constrain the code, not decorate the README.
-02  Important technical decisions deserve explicit records.
-03  Security belongs in the delivery pipeline.
-04  Observability is part of system behavior, not an afterthought.
-05  Automation needs explicit authority boundaries.
-06  Documentation should evolve with the system it describes.
-07  Tests should validate assumptions, not merely improve a badge.
-```
+- Compare fixed-window, sliding-window, and token-bucket rate limiting in a running application.
+- Generate traffic, inject failures, and observe how the system responds.
+- Connect application behavior to events, metrics, Prometheus, Grafana, and tracing-oriented design.
+- Keep implemented labs distinct from roadmap ideas so the repository remains a truthful learning surface.
+
+**Why it matters:** system-design concepts become more useful when you can change a constraint and watch the consequences.
+
+[Explore ArchitectLab →](https://github.com/SandeepN97/architect-lab-java)
 
 ---
 
-## 05 / Systems Thinking
+### 🛡️ [InboxGuard](https://github.com/SandeepN97/inboxguard) — architecture boundaries backed by security controls
+
+`Java 21` · `Spring Boot` · `React` · `PostgreSQL` · `OAuth2`
+
+A Gmail-management application used as a reference implementation for **hexagonal architecture and secure delivery**.
+
+- Architecture boundaries are tested with **ArchUnit** instead of relying on convention alone.
+- OAuth2 credentials are handled with encrypted token storage and explicit adapter boundaries.
+- CI combines **CodeQL, Trivy, Semgrep, Gitleaks, OWASP ZAP**, dependency checks, and application tests.
+- C4 diagrams and ADRs explain the system while executable checks help keep the implementation aligned with those decisions.
+
+**Why it matters:** architecture becomes credible when violating it causes a test or pipeline to fail.
+
+[Explore InboxGuard →](https://github.com/SandeepN97/inboxguard)
+
+---
+
+### 📈 [EdgeBot](https://github.com/SandeepN97/edgebot) — research software that is allowed to say “the strategy failed”
+
+`Python` · `Clean Architecture` · `Backtesting` · `Risk Management`
+
+An algorithmic-trading research platform built around validation discipline rather than optimistic backtests.
+
+- Separates strategy logic, market/data adapters, risk controls, execution boundaries, and research workflows.
+- Uses sealed holdout testing and records failed strategies instead of hiding negative results.
+- Keeps live-capital execution out of scope while paper-trading and risk behavior are validated.
+- Maintains **130+ tests** around the research and execution boundaries.
+
+**Why it matters:** evidence that disproves an idea is still useful engineering output.
+
+[Explore EdgeBot →](https://github.com/SandeepN97/edgebot)
+
+---
+
+### 🏢 [Samjhana Ventures OS](https://github.com/SandeepN97/samjhana-ventures-os) — software shaped by real business domains
+
+`Java 21` · `Spring Boot` · `React` · `JWT` · `i18n`
+
+A bilingual multi-business ERP spanning furniture, fuel, EV charging, rentals, loans, pricing, finance, and role-based operations across Nepal and the United States.
+
+- Models several operational domains without flattening them into one generic CRUD workflow.
+- Supports bilingual interfaces and practical workflows for non-technical users.
+- Combines role-based access, pricing/data integration, API documentation, and full-stack operational views.
+- Treats domain modeling and usability as architecture concerns, not only UI concerns.
+
+**Why it matters:** good software architecture has to survive the messiness of the domain it represents.
+
+[Explore Samjhana Ventures OS →](https://github.com/SandeepN97/samjhana-ventures-os)
+
+---
+
+## How I approach engineering
+
+| Principle | What it means in practice |
+| --- | --- |
+| **Architecture should constrain code** | Dependency rules, interfaces, tests, and policies should reinforce the intended structure. |
+| **Failure is part of the design** | Timeouts, degraded dependencies, rejected inputs, and recovery paths deserve first-class treatment. |
+| **Security belongs in delivery** | Secrets, dependencies, static analysis, runtime checks, and release controls belong in the pipeline. |
+| **Observability explains behavior** | Logs, metrics, traces, events, and audit evidence should make system behavior inspectable. |
+| **Tests validate assumptions** | A test suite should challenge important invariants, not exist primarily to improve a coverage badge. |
+| **Documentation is part of the system** | ADRs, C4 diagrams, runbooks, and implementation docs should evolve with the code. |
+| **Automation needs boundaries** | Automated actions should have explicit permissions, review points, and evidence where consequences matter. |
+
+---
+
+## Systems thinking
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/systems-dark.svg">
@@ -111,53 +114,41 @@ A Nepal–USA family-business operating system spanning **furniture, fuel, EV ch
   <img alt="How I think about software systems" src="./assets/systems-light.svg" width="100%">
 </picture>
 
-I tend to separate **product intent, application behavior, domain rules, workflows, security, infrastructure, and observability** so they can change independently without turning the whole system into one dependency graph.
+I try to separate **product intent, application behavior, domain rules, workflows, security, infrastructure, and observability** so each can evolve without turning every change into a repository-wide dependency problem.
 
 ---
 
-## 06 / Engineering Toolbox
+## Technical focus
 
-**Core**  
-`Java 21` · `Spring Boot` · `TypeScript` · `JavaScript` · `React` · `Astro` · `SQL` · `REST`
+**Application engineering**  
+`Java 21` · `Spring Boot` · `TypeScript` · `JavaScript` · `React` · `Astro` · `REST` · `SQL`
 
-**Systems & Data**  
-`PostgreSQL` · `Redis` · `Kafka / Redpanda` · `Docker` · `Cloudflare` · `GitHub Actions`
+**Systems & data**  
+`PostgreSQL` · `Redis` · `Kafka / Redpanda` · `Docker` · `Event-driven design` · `Rate limiting`
 
-**Reliability & Security**  
-`Prometheus` · `Grafana` · `OpenTelemetry` · `CodeQL` · `Trivy` · `Semgrep` · `Gitleaks` · `OWASP ZAP`
+**Reliability & delivery**  
+`GitHub Actions` · `Prometheus` · `Grafana` · `OpenTelemetry` · `CodeQL` · `Trivy` · `Semgrep` · `Gitleaks` · `OWASP ZAP`
 
 **Architecture**  
-`Hexagonal Architecture` · `Clean Architecture` · `C4` · `ADRs` · `Event-driven design` · `Workflow orchestration`
+`Hexagonal Architecture` · `Clean Architecture` · `C4` · `ADRs` · `Domain modeling` · `Workflow boundaries`
 
-**AI-assisted Engineering**  
-`Provider abstraction` · `Context boundaries` · `Human-in-the-loop review` · `Machine-readable documentation` · `Evidence-driven workflows`
-
----
-
-## 07 / Current Focus
-
-I am currently deepening my work around **distributed systems, architecture enforcement, secure delivery, observability, and AI-assisted engineering workflows**.
-
-**ArchitectLab** is my primary system-design learning surface, while **InboxGuard**, **EdgeBot**, and **Samjhana Ventures OS** keep architecture, security, empirical validation, and domain modeling grounded in working software.
+**AI-assisted engineering**  
+I use AI tools to accelerate research, implementation, testing, and review while keeping **architecture, acceptance criteria, authority, and evidence** explicit. I am particularly interested in machine-readable documentation, bounded automation, provider abstraction, and human review at consequential boundaries.
 
 ---
 
-## 08 / Repository Map
+## Current direction
 
-| Project | Primary signal |
-| --- | --- |
-| [architect-lab-java](https://github.com/SandeepN97/architect-lab-java) | distributed systems · observability · system design |
-| [inboxguard](https://github.com/SandeepN97/inboxguard) | Java · hexagonal architecture · DevSecOps |
-| [edgebot](https://github.com/SandeepN97/edgebot) | clean architecture · testing · empirical validation |
-| [samjhana-ventures-os](https://github.com/SandeepN97/samjhana-ventures-os) | full-stack ERP · domain modeling · i18n |
-| [dividendlens](https://github.com/SandeepN97/dividendlens) | data-driven financial analysis |
+I am deepening my work in **distributed systems, architecture enforcement, secure delivery, observability, and governed AI-assisted engineering**.
+
+ArchitectLab is the main public learning surface for system-design experiments. InboxGuard, EdgeBot, and Samjhana Ventures OS provide different pressure tests: security and architecture enforcement, empirical validation, and real-world domain complexity.
 
 ---
 
 <div align="center">
 
-### Build deliberately. Document the decisions. Verify the system.
+### Build deliberately. Make the boundaries visible. Verify the behavior.
 
-[**View all repositories →**](https://github.com/SandeepN97?tab=repositories)
+[**Explore all repositories →**](https://github.com/SandeepN97?tab=repositories)
 
 </div>
